@@ -1,5 +1,10 @@
 Feature: Como um usuário de teste, gostaria de acessar a aplicação para testa-la
 
+Background: Exemplo de background
+    Given Tenho um background
+    When executo o background
+    Then vai ser executado em todos os scenarios
+
 Scenario: Sucesso
 Given estou na tela de login
 When toco em logo
